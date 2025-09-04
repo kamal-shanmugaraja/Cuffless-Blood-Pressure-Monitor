@@ -1,0 +1,48 @@
+.registration-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .form-label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label label {
+    margin-bottom: 5px;
+  }
+  
+  .form-label input,
+  .form-label select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+  

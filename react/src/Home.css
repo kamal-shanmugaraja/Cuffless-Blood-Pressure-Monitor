@@ -1,0 +1,23 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust color as needed */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background-color: #0056b3; /* Adjust color as needed */
+}

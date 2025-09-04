@@ -1,0 +1,20 @@
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.button-container button {
+  margin-top: 10px; /* Add spacing between buttons */
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
